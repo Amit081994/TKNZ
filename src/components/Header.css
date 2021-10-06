@@ -1,0 +1,26 @@
+.header_wrapper{
+    width: 100%;
+    background-color: rgb(55,63,197);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    max-width: 1250px;
+    width: 100%;  
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 18px 15px;
+    height: auto;
+}
+.header img{
+    max-width: 80px;
+    width: auto;
+    height: auto;
+    max-height: 35px;
+}

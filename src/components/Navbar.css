@@ -1,0 +1,69 @@
+
+.nav{
+    width: 100%;
+    height: 96px;
+    background-color: rgb(22,22,22);
+    align-items: center;
+}
+
+.navbar_left, .navbar_right, .navbar, .nav, .left_ul ul, .right_ul ul{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    max-width: 1250px;
+    width: 100%;  
+    align-items: center;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.logo h1, .left_ul ul, .right_ul ul{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.logo {
+    padding-right: 45px;
+}
+.logo h1{
+    font-size: 3rem;
+}
+.left_ul ul li, .right_ul ul li{
+    margin:0 22px;
+}
+.right_ul ul li {
+    display: flex;
+    align-items: center;
+}
+.right_ul ul li span{
+    padding-left: 15px;
+}
+.hamberger{
+    padding-left: 45px;
+}
+.hamberger .ham{
+    position: relative;
+    width: 45px;
+    height: 1px;
+    background-color: white;
+}
+.hamberger .ham::after{
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 1px;
+    left: -10px;
+    background-color: white;
+    top: 8px;
+}
+.hamberger .ham::before{
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 1px;
+    left: -10px;
+    background-color: white;
+    top: -8px;
+}

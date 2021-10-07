@@ -1,11 +1,9 @@
 .pack_details_wrapper{
     background-color: rgb(35,35,35);
-    width: 49%;
     box-shadow: 0px 3px 5px -2px rgba(138,138,138,0.75) inset;
     -webkit-box-shadow: 0px 3px 5px -2px rgba(138,138,138,0.75) inset;
     -moz-box-shadow: 0px 3px 5px -2px rgba(138,138,138,0.75) inset;
     border-radius: 3px;
-    padding: 45px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -33,6 +31,10 @@ button{
     padding-top: 40px;
     flex-wrap: wrap;
 }
+.pack_details_wrapper{
+    padding: 20px !important;
+}
+
 .addItems{
     border: 1px solid rgb(94, 94, 94);
     display: inline-flex;
@@ -90,4 +92,35 @@ h3{
     line-height: 18px;
     color: rgb(163, 163, 163);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 425px){
+    .buy_button{
+        padding-left: 0;
+    }
+    .addItems{
+        width: 100%;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .addItemWrapper{
+        padding-top: 15px !important;
+    }
+    .pd-top{
+        padding-top: 15px !important;
+    }
+    .cards_total{
+        padding-top: 5px;
+    }
+    .buy_button button, .buy_button{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .pack_detail h2{
+        font-size: 1.8rem;
+    }
+    .pack_details_wrapper{
+        flex-shrink: inherit !important;
+        margin: 10px !important;
+    }
 }

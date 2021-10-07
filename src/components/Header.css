@@ -24,3 +24,23 @@
     height: auto;
     max-height: 35px;
 }
+@media screen and (max-width: 1249px){
+    .header_wrapper{
+        padding-top: 80px ;
+      }
+      .header{
+          flex-wrap: nowrap;
+          overflow: hidden;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .header_wrapper{
+      padding-top: 80px ;
+    }
+    .header{
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    
+}

@@ -3,7 +3,7 @@ import "../components/PackDetails.css"
 
 export const PackDetails = () => {
     return (
-        <div className="pack_details_wrapper">
+        <div className="col-sm-12 col-md-6 col-lg-6 pack_details_wrapper p-5">
             <div className="pack_detail">
                 <h2>League of legends</h2>
                 <div className="cards_total">
